@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            width: 600px;
+            border: 3px solid black;
+        }
+        h1 {
+            box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.363);
+        }
+        main{
+            background-color: white;
+            border: 3px solid black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.726);
+        }
+        footer {
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            background-color: black;
+        }
+        article  {
+            background-color: lightgray;
+            padding: 2px;
+            margin: 0px;
+        }
+        article > aside {
+            background-color: rgb(151, 149, 149);
+        }
+        nav {
+            background-color: grey;
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.63);
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+                
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat ea maxime incidunt exercitationem nihil! Libero, laboriosam odio perspiciatis officia rem accusamus doloribus ab esse amet distinctio autem quis temporibus.</p>
+
+                <aside>
+                    <p>Escrito por Jose Santos</p>
+                </aside>
+                
+            </article>
+           
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+
+    </footer>
+</body>
+</html>
